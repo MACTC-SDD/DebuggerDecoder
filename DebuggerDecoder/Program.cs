@@ -89,7 +89,7 @@ namespace DebuggerDecoder
         }
 
         // Clue #4
-        // What are the FIRST 4 digits of clue4 (ignore negative/positive)?
+        // What are the FIRST 4 digits of clue4 (ignore negative/positive)
         // WHEN i = 5150?
         // HINT: You might want to check out the breakpoint settings
         //   unless you want to hit continue 4,283 times.
