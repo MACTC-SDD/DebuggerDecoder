@@ -84,7 +84,6 @@ namespace DebuggerDecoder
             for (int i=3; i<9; i++)
             {
                 clue3 += clue3 * Math.PI * i;
-                int foo = clue3.ToString().GetStableHashCode();
             }
         }
 
