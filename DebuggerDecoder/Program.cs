@@ -27,7 +27,7 @@ namespace DebuggerDecoder
             Clue4();
 
             Clue5();
-
+            Console.WriteLine("8456".GetStableHashCode());
             Console.WriteLine(vert);
             Console.WriteLine("Welcome To The Debugger Scavenger Hunt!");
             Console.WriteLine("Use the debugger to find the clues hidden in the variables.");
@@ -134,7 +134,7 @@ namespace DebuggerDecoder
             d.Add(0, (947109595, "Clue #1: "));
             d.Add(1, (-1388073274, "Clue #2: "));
             d.Add(2, (1165526880, "Clue #3: "));
-            d.Add(3, (-1886713383, "Clue #4: "));
+            d.Add(3, (1346211403, "Clue #4: "));
             d.Add(4, (1518383759, "Clue #5: "));
 
             Console.WriteLine($"{d[questionNumber].Item2}");
