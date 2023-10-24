@@ -53,7 +53,7 @@ namespace DebuggerDecoder
 
             Console.WriteLine($"\n\nYou got {totalRight} right and {totalWrong} wrong.");
             Console.WriteLine($"Result Verification Code: {hashVerify + totalRight}");
-            
+            Console.ReadLine();
         }
 
         // Clue #1
